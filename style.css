@@ -1,0 +1,23 @@
+html, body {
+    height: 100%
+}
+body {
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    border: solid black 1px;
+}
+
+
+.header {
+    border: solid black 1px;
+}
+
+
+.middle {
+    border: solid black 1px;
+
+}
+
+.footer {
+    border: solid black 1px;
+}
