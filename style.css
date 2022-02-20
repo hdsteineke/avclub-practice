@@ -14,16 +14,27 @@ body {
 
 
 .middle {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     border: solid black 1px;
+     
 
+}
+
+.thing-one {
+    border: solid black 1px;
+}
+
+.thing-two {
+    border: solid black 1px
+}
+
+.thing-three {
+    border: solid black 1px;
 }
 
 .footer {
     border: solid black 1px;
 }
 
-.twins {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    border: solid black 1px;
 }
